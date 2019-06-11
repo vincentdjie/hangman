@@ -8,7 +8,25 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <h1>Welcome.....</h1>
+        <input type="password" name="start" placeholder="Enter your word here">
+        <button id="start">Start Game</button>
+    </header>
+    <main>
+        <input type="text" name="input" placeholder="Enter your guess" maxlength="1">
+        <button id="submit">Submit</button>
+        <div class="display">
+            <p id="word"></p>
+        </div>
+        <div class="box">
+            <p>Guessed words:</p>
+            <p id="guessedletters"></p>
+        </div>
+    </main>
+    <footer>
+        <p>Try not to get hanged......</p>
+    </footer>
     <script src="js/script.js"></script>
 </body>
 </html>

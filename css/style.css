@@ -1,7 +1,26 @@
-/* header, main, footer {
-    width: 70%;
-    height: 200px;
-    border: 1px dashed hotpink;
-    margin: 1em auto;
-} */
-/* take the border off before mau run the program cuz they look stupid, butgood for debugging */
+header, main, footer {
+    margin: auto;
+    text-align: center;
+    font-family: 'Papyrus', cursive;
+    font-weight: bold;
+    color: ivory;
+}
+
+body {
+    background-image: url('http://www.settlementperspectives.com/wp-content/uploads/Hangmans-Noose1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    height: 100px;
+}
+
+
+.display {
+    height: 50px;
+}
+
+#word {
+    font-size: 24px;
+}
